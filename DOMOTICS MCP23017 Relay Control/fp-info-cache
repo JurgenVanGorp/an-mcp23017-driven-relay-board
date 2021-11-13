@@ -1,0 +1,162 @@
+36767327508941
+my_Footprints
+CP_Radial_D6.3mm_P2.50mm_Jurgen
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor
+0
+2
+2
+my_Footprints
+Capacitor
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*3.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm  length 7.2mm width 3.5mm Capacitor
+0
+2
+2
+my_Footprints
+Connector_1x3_HighVoltage
+
+
+0
+3
+3
+my_Footprints
+Connector_1x3_Normal
+
+
+0
+3
+3
+my_Footprints
+Connector_1x6_ZigZag
+
+
+0
+6
+6
+my_Footprints
+Connector_1x12_HighVoltage
+
+
+0
+12
+12
+my_Footprints
+Connector_1x20_HighVoltage
+
+
+0
+20
+20
+my_Footprints
+D_DO-41_SOD81_P10.16mm_Horizontal_Jurgen
+Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf
+Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm
+0
+2
+2
+my_Footprints
+Diode10.16mm_Horizontal_Jurgen
+Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf
+Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm
+0
+2
+2
+my_Footprints
+LED_Radial_D6.3mm_P2.50mm_Jurgen
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor
+0
+2
+2
+my_Footprints
+RJ11
+RJ12 connector  https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0082.pdf
+RJ12 connector
+0
+4
+4
+my_Footprints
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+my_Footprints
+R_0603_1608Metric_Bottom
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+my_Footprints
+R_Axial
+Res, Axial
+Res Axial
+0
+2
+2
+my_Footprints
+R_Radial
+Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
+0
+2
+2
+my_Footprints
+Relais_SPDT_Omron_G5V-1
+Relay Omron G5V-1, see http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf
+Relay Omron G5V-1
+0
+6
+6
+my_Footprints
+Relay_230V
+
+
+0
+8
+5
+my_Footprints
+Relay_AFE_BJS_SS_112LM
+
+
+0
+4
+4
+my_Footprints
+Relay_AFE_BRD_SS_112LM
+
+
+0
+4
+4
+my_Footprints
+TO-92_Inline_Wide_Jurgen
+TO-92_3
+to-92_3
+0
+3
+3
+my_Footprints
+TO-92_bc547
+TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+my_Footprints
+TerminalBlock-2_P7.5mm_highpower
+simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2
+terminal block bornier2
+0
+2
+2
+my_Footprints
+TerminalBlock_bornier-2_P5.08mm_jurgen
+simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2
+terminal block bornier2
+0
+2
+2
