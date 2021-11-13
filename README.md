@@ -37,7 +37,7 @@ This is the list of components used, and where I have found them.
 
 | Quantity | Component    | Value                     | Source                 | Cost Estimate |
 |:--------:|--------------|--------------------------:|------------------------|--------------:|
-| 1        | IC           | MCP23017                  | [mouser.com](https://eu.mouser.com/ProductDetail/Microchip/MCP23017-E-SP?qs=sGAEpiMZZMsVgcksf1EMUq%252Bl%252ByrW%252Br2s| 2        | Resistor     | 470 |  |  | 
+| 1        | IC           | MCP23017                  | [mouser.com](https://eu.mouser.com/ProductDetail/Microchip/MCP23017-E-SP?qs=sGAEpiMZZMsVgcksf1EMUq%252Bl%252ByrW%252Br2s)| 2        | Resistor     | 470 |  |  | 
 | 16       | Diode        | 1N4007 | [conrad.com](https://www.conrad.com/p/diotec-si-rectifier-1n4007-do-204al-1000-v-1-a-162272) | € 0.09 | 
 | 15       | Resistor     | 4K7 | [conrad.com](https://www.conrad.com/p/tru-components-tc-mf0w4ff4701a50203-metal-film-resistor-47-k-axial-lead-0207-025-w-1-1-pcs-1585059) | € 0.10 | 
 | 1        | Capacitor    | 22nF  | [conrad.com](https://www.conrad.com/p/tru-components-tc-k22nf5-ceramic-capacitor-tht-22-nf-100-v-20-1-pcs-1589451) | € 0.10 | 
@@ -47,11 +47,11 @@ This is the list of components used, and where I have found them.
 | 1        | 12V to 5V DC | OKI-78SR-5_1.5-W36H-C (*) | [mouser.com](https://eu.mouser.com/ProductDetail/Murata/OKI-78SR-5-15-W36H-C?qs=sGAEpiMZZMsbRVlHDoeFZD%252BySXGErvIJc3su7QBo1Is%3D) | € 3.64 | 
 | 15       | Relay 12V    | G5V-1-DC12 (**)           | [mouser.com](https://eu.mouser.com/ProductDetail/Omron/G5V-1-DC12?qs=sGAEpiMZZMv0NwlthflBi%2Fae0vpIDW5L) | € 8.00 |
 | 3        | Jumper       | N/A      | e.g. [conrad.com](https://www.conrad.com/p/tru-components-shorting-jumper-contact-spacing-254-mm-pins-per-row2-content-100-pcs-1693950) | € 0.35 | 
-| 1        | Connector    | 1 x 2    |  |  | 
-| 2        | Connector    | 1 x 3    |  |  | 
+| 1        | Connector 1x2 | DG350-3.5-03P    | [conrad.com](https://www.conrad.com/p/degson-dg350-35-02p-14-00ah-200-screw-terminal-2-mm-number-of-pins-2-green-200-pcs-1595136) | € 0.22 | 
+| 2        | Connector 1x3 | DG350-3.5-02P    | [conrad.com](https://www.conrad.com/p/degson-dg350-35-03p-14-00ah-200-screw-terminal-2-mm-number-of-pins-3-green-200-pcs-1595217) | € 0.32 | 
 | 5        | 1x6 Spring connector | PTR 54191060051E | [conrad.com](https://www.conrad.com/p/ptr-54191060051e-spring-loaded-terminal-075-mm-number-of-pins-6-pebble-grey-1-pcs-569770) | € 0.36 | 
-| 1        | LED "IDENT"  | Green 5 mm |  | € 0.20 | 
-| 1        | LED "POWER"  | Red 5 mm |  | € 0.20 | 
+| 1        | LED "IDENT"  | Green 5 mm | [conrad.com](https://www.conrad.com/p/vishay-tlhr-5400-led-wired-super-red-circular-5-mm-10-mcd-30-30-ma-2-v-184389) | € 0.20 | 
+| 1        | LED "POWER"  | Red 5 mm | [conrad.com](https://www.conrad.com/p/kingbright-l-7113id-led-wired-red-circular-5-mm-45-mcd-30-20-ma-2-v-180139) | € 0.20 | 
 
 (*) The OKI-78SR is a 12V DC to 5V DC converter. It is pin-compatible with an [LM7805](https://eu.mouser.com/ProductDetail/Texas-Instruments/LM7805CT?qs=sGAEpiMZZMsFKQfwwdJx%2FxW4Tr%252BxPyoqmeSSFfZw3i4%3D). The current drawn is very low, so feel free to replace it with an LM7805 if you prefer.
 (**) You can also power the board with 5V. In that case you will need to bridge the DC/DC converter and replace the 12V relays with the 5V [G5V-1-DC5 version](https://eu.mouser.com/ProductDetail/Omron/G5V-1-2-DC5?qs=sGAEpiMZZMsKEdP9slC0YbH1hXJZnuIH7AhUMezYhKg%3D).
