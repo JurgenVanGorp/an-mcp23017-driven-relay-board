@@ -66,7 +66,7 @@ The assembled board should look something like the following. Please mind that t
 
 ## Schematic decription
 
-The overall schematic looks as follows. You can [download the shematic in PDF format here](https://github.com/JurgenVanGorp/an-mcp23017-driven-relay-board/blob/main/Schematic.pdf).
+The overall schematic looks as follows. You can [download the shematic in PDF format here](https://github.com/JurgenVanGorp/an-mcp23017-driven-relay-board/blob/main/DOMOTICS%20MCP23017%20Relay%20Control/PCB%20Layouts.pdf).
 
 ![alt text](https://github.com/JurgenVanGorp/an-mcp23017-driven-relay-board/blob/main/images/FullSchematic.png)
 
@@ -74,7 +74,7 @@ True, this is a bit crowded, and not easy to follow. So, let's highlight a few d
 
 ![alt text](https://github.com/JurgenVanGorp/an-mcp23017-driven-relay-board/blob/main/images/Connectorblock.png)
 
-Then, let's have a look at one of the fifteen relay configurations.
+Then, let's have a look at one of the fifteen relay configurations you can find in the top right section of the schematic.
 
 ![alt text](https://github.com/JurgenVanGorp/an-mcp23017-driven-relay-board/blob/main/images/RelayDetail.png)
 
@@ -82,12 +82,12 @@ All fifteen relays have the same straight-forward configuration.
 * The NO (Normally-Open) and CO (Common) pins of the relay are routed to the connector block. I.e. 'in rest' the outputs are not connected.
 * Resistor R1 is connected to the output of one of the MCP23017 pins.
 * Transistor T1 is used as a switch. Strictly spoken, any pin-compatible NPN transistor can be used here.
-* Diode D1 protects the transistor when switching off the relay. Since this is a coil relay, suddenly switching off the relay can result in a reverse voltage peak which can potentially damage the transistor. Diode D1 make sure that a reverse current in the coil is shortcutted.
+* Diode D1 protects the transistor when switching off the relay. Since this is a coil relay, suddenly switching off the relay can result in a reverse voltage peak which can potentially damage the transistor. Diode D1 make sure that a reverse current in the coil is shortcut.
 
 Finally, let's look at the MCP23017 block in more detail.
 * The output pins of both GPA and GPB are routed to the relay blocks. 
 * GPB7 ("pin 15" in Home Assistant) is connected to the "Identification" LED D18 and can be used to identify the board and test the MCP23017 operation.
-* Connectors J6 and J7 are used to connect the I2C pins to the Raspberry Pi. Remark that both connectors are placed fully parallel, so that the connectors can be used to cascade multiple boards.
+* Connectors J6 and J7 are used to connect the I2C pins to the Raspberry Pi. Remark that both connectors are configured fully parallel, so that the connectors can be used to cascade multiple boards.
 * Jumpers JP1 .. JP3 are used as the address selectors.
 * LED D17 is just connected to the +5V output and can be used to verify the power.
 
