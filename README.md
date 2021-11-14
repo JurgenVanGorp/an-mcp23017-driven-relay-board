@@ -37,15 +37,18 @@ This is the list of components used, and where I have found them.
 
 | Quantity | Component    | Value                     | Source                 | Cost Estimate |
 |:--------:|--------------|--------------------------:|------------------------|--------------:|
-| 1        | IC           | MCP23017                  | [mouser.com](https://eu.mouser.com/ProductDetail/Microchip/MCP23017-E-SP?qs=sGAEpiMZZMsVgcksf1EMUq%252Bl%252ByrW%252Br2s)| 2        | Resistor     | 470 |  |  | 
+| 1        | PCB Board    | See Gerber files | [eurocircuits.eu](https://www.eurocircuits.eu) | € 35.00 | 
+| 1        | IC           | MCP23017                  | [mouser.com](https://eu.mouser.com/ProductDetail/Microchip/MCP23017-E-SP?qs=sGAEpiMZZMsVgcksf1EMUq%252Bl%252ByrW%252Br2s) | € 1.35 |
+| 2        | 14 pins socket | MCP23017                  | [mouser.com](https://www.conrad.com/p/tru-components-ic-socket-contact-spacing-254-mm-762-mm-number-of-pins-14-1-pcs-1568704) | € 0.40 |
+| 2        | Resistor     | 470 |  |  | 
 | 16       | Diode        | 1N4007 | [conrad.com](https://www.conrad.com/p/diotec-si-rectifier-1n4007-do-204al-1000-v-1-a-162272) | € 0.09 | 
 | 15       | Resistor     | 4K7 | [conrad.com](https://www.conrad.com/p/tru-components-tc-mf0w4ff4701a50203-metal-film-resistor-47-k-axial-lead-0207-025-w-1-1-pcs-1585059) | € 0.10 | 
 | 1        | Capacitor    | 22nF  | [conrad.com](https://www.conrad.com/p/tru-components-tc-k22nf5-ceramic-capacitor-tht-22-nf-100-v-20-1-pcs-1589451) | € 0.10 | 
 | 3        | Capacitor    | 220nF | [conrad.com](https://www.conrad.com/p/kemet-c320c224m5u5ta-ceramic-capacitor-radial-lead-220-nf-50-v-20-l-x-w-x-h-508-x-318-x-584-mm-1-pcs-1420328) | € 0.60 | 
 | 2        | Capacitor     | 220uF | [conrad.com](https://www.conrad.com/p/europe-chemicon-eky-500ell221mj16s-electrolytic-capacitor-radial-lead-5-mm-220-f-50-v-20-x-h-10-mm-x-16-mm-1-pc-1505568) | € 0.50 | 
-| 15       | Transistor   | BC547 **(1)** | [conrad.com](https://www.conrad.com/search?search=bc547&searchType=regular) | € 0.20 |
+| 15       | Transistor   | BC547 **(1)** | [conrad.com](https://www.conrad.com/search?search=140539&searchType=regular) | € 0.05 |
 | 1        | 12V to 5V DC | OKI-78SR-5_1.5-W36H-C **(2)** | [mouser.com](https://eu.mouser.com/ProductDetail/Murata/OKI-78SR-5-15-W36H-C?qs=sGAEpiMZZMsbRVlHDoeFZD%252BySXGErvIJc3su7QBo1Is%3D) | € 3.64 | 
-| 15       | Relay 12V    | G5V-1-DC12 **(3)**           | [mouser.com](https://eu.mouser.com/ProductDetail/Omron/G5V-1-DC12?qs=sGAEpiMZZMv0NwlthflBi%2Fae0vpIDW5L) | € 8.00 |
+| 15       | Relay 12V    | G5V-1-DC12 **(3)**           | [mouser.com](https://eu.mouser.com/ProductDetail/Omron/G5V-1-DC12?qs=sGAEpiMZZMv0NwlthflBi%2Fae0vpIDW5L) | € 1.45 |
 | 3        | Jumper       | N/A      | e.g. [conrad.com](https://www.conrad.com/p/tru-components-shorting-jumper-contact-spacing-254-mm-pins-per-row2-content-100-pcs-1693950) | € 0.35 | 
 | 1        | Connector 1x2 | DG350-3.5-03P    | [conrad.com](https://www.conrad.com/p/degson-dg350-35-02p-14-00ah-200-screw-terminal-2-mm-number-of-pins-2-green-200-pcs-1595136) | € 0.22 | 
 | 2        | Connector 1x3 | DG350-3.5-02P    | [conrad.com](https://www.conrad.com/p/degson-dg350-35-03p-14-00ah-200-screw-terminal-2-mm-number-of-pins-3-green-200-pcs-1595217) | € 0.32 | 
