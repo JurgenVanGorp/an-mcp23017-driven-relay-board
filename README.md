@@ -96,5 +96,19 @@ Finally, let's look at the MCP23017 block in more detail.
 
 ![alt text](https://github.com/JurgenVanGorp/an-mcp23017-driven-relay-board/blob/main/images/mcp23017detail.png)
 
+## Mounting the PCB Board
+
+The PCBs are 10cm x 16cm which allows mounting them in a standard EuroRack, as in the image below. If you want to know more about Euroracks, [RS gives a nice overview here](https://nl.rs-online.com/web/generalDisplay.html?id=ideas-and-advice/eurocards-pcb-guide). They also sell different types of enclosures.
+
+![alt text](https://github.com/JurgenVanGorp/an-MCP23017-driven-high-voltage-sensor-board/blob/main/images/RackOverview1.jpg)
+
+An alternate way for mounting the board, is a DIN rail case. The components for a DIN rail mount are e.g. the following.
+
+| Quantity | Component                    | Description            | Source                 | Cost Estimate |
+|:--------:|------------------------------|------------------------|------------------------|--------------:|
+| 2 or 3   | Phoenix Contact UM108-FE     | DIN rail mount         | [conrad.com](https://www.conrad.com/p/phoenix-contact-um108-fe-din-rail-casing-base-1075-plastic-10-pcs-454634) | € 0.70 | 
+| 1        | Phoenix Contact UM108-SEFE/R | Right side panel       | [conrad.com](https://www.conrad.com/p/phoenix-contact-um108-sefer-din-rail-casing-side-panel-plastic-10-pcs-453303) | € 1.00 |
+| 1        | Phoenix Contact UM108-SEFE/R | Left side panel        | [conrad.com](https://www.conrad.com/search?search=459039&searchType=regular) | € 1.00 |
+| 1        | Phoenix Contact UM100-PROFIL 100CM | back plate (1m)  | [conrad.com](https://www.conrad.com/p/phoenix-contact-um100-profil-100cm-din-rail-casing-plastic-1-pcs-456207) | € 30.00 |
 
 Next topic: [A sensor (relay) board for sensing 240V high power states with an MCP23017.](https://github.com/JurgenVanGorp/an-MCP23017-driven-high-voltage-sensor-board)
