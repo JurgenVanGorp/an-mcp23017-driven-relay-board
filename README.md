@@ -35,7 +35,7 @@ There are many companies that will be able to create the PCB files for you. My p
 
 This is the list of components used, and where I have found them.
 
-| Quantity | Component    | Value                     | Source                 | Cost Estimate |
+| Quantity | Component    | Value                     | Source                 | ~cost/Piece   |
 |:--------:|--------------|--------------------------:|------------------------|--------------:|
 | 1        | PCB Board    | See Gerber files | [eurocircuits.eu](https://www.eurocircuits.eu) | € 35.00 | 
 | 1        | IC           | MCP23017                  | [mouser.com](https://eu.mouser.com/ProductDetail/Microchip/MCP23017-E-SP?qs=sGAEpiMZZMsVgcksf1EMUq%252Bl%252ByrW%252Br2s) | € 1.35 |
@@ -54,7 +54,8 @@ This is the list of components used, and where I have found them.
 | 2        | Connector 1x3 | DG350-3.5-02P    | [conrad.com](https://www.conrad.com/p/degson-dg350-35-03p-14-00ah-200-screw-terminal-2-mm-number-of-pins-3-green-200-pcs-1595217) | € 0.32 | 
 | 5        | 1x6 Spring connector | PTR 54191060051E | [conrad.com](https://www.conrad.com/p/ptr-54191060051e-spring-loaded-terminal-075-mm-number-of-pins-6-pebble-grey-1-pcs-569770) | € 0.36 | 
 | 1        | LED "IDENT"  | Green 5 mm | [conrad.com](https://www.conrad.com/p/vishay-tlhr-5400-led-wired-super-red-circular-5-mm-10-mcd-30-30-ma-2-v-184389) | € 0.20 | 
-| 1        | LED "POWER"  | Red 5 mm | [conrad.com](https://www.conrad.com/p/kingbright-l-7113id-led-wired-red-circular-5-mm-45-mcd-30-20-ma-2-v-180139) | € 0.20 | 
+| 1        | LED "POWER"  | Red 5 mm | [conrad.com](https://www.conrad.com/p/kingbright-l-7113id-led-wired-red-circular-5-mm-45-mcd-30-20-ma-2-v-180139) | € 0.20 |
+| TOTAL    | | | | ~€ 74 |
 
 **(1)** Also known as 2N3904 / BC547 / PN2222 / 2N4401 / NTE123AP. Make your pick, this is a "standard" NPN transistor. 
 
@@ -104,7 +105,7 @@ The PCBs are 10cm x 16cm which allows mounting them in a standard EuroRack, as i
 
 An alternate way for mounting the board, is a DIN rail case. The components for a DIN rail mount are e.g. the following.
 
-| Quantity | Component                    | Description            | Source                 | Cost Estimate |
+| Quantity | Component                    | Description            | Source                 | ~cost/Piece   |
 |:--------:|------------------------------|------------------------|------------------------|--------------:|
 | 2 or 3   | Phoenix Contact UM108-FE     | DIN rail mount         | [conrad.com](https://www.conrad.com/p/phoenix-contact-um108-fe-din-rail-casing-base-1075-plastic-10-pcs-454634) | € 0.70 | 
 | 1        | Phoenix Contact UM108-SEFE/R | Right side panel       | [conrad.com](https://www.conrad.com/p/phoenix-contact-um108-sefer-din-rail-casing-side-panel-plastic-10-pcs-453303) | € 1.00 |
